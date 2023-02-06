@@ -182,7 +182,7 @@
                 <div class="navigation_laws_txt_vueblock">
                   <div class="laws_txt_vueblock">
                     <p class="lawstxt">Магнитная индукция - силоавя характеристика магнитного поля</p>
-                    <p class="lawstxt_two">B = F/I * l</p>
+                    <p class="lawstxt_two">B = F/i * l</p>
                   </div>
                 </div>
               </div>
@@ -268,14 +268,20 @@
     <div :style="{ display: OneTheoryDisplay}">
       <div class="all_padding">
         <div class="all_theory_navigation">
-          <div style="float: left;">
-            <button @click="NoTheory()">
-              <img class="all_theory_img" src="theotybtnimg.svg">
-            </button>
-          </div>
-          <div style="float: left;">
-            <p class="new_theory_txt">Применение и практическое значение закона Джоуля – Ленца</p>
-          </div>
+          <ul class="laws_list">
+            <li>
+              <div>
+                <button @click="NoTheory()">
+                  <img class="all_theory_img" src="theotybtnimg.svg">
+                </button>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="new_theory_txt">Применение и практическое значение закона Джоуля – Ленца</p>
+              </div>
+            </li>
+          </ul>
         </div>
         <div>
           <p class="all_theory_txt">На примере многих бытовых приборов понятно, что если через участок цепи проходит электроток и при этом не совершается какая-либо работа, то происходит нагревание проводника. Иногда оно идет на пользу — например, в лампе накаливания или в аппарате дуговой сварки. Но в других случаях тепловой эффект нежелателен — например, перегрев электрической проводки в здании может вызвать пожар. Поэтому в наших интересах управлять таким эффектом, и правило Джоуля-Ленца определяет, от чего зависит тепловое действие тока. <br><br>Правило было сформулировано в результате опытов двух ученых — англичанина Джеймса Прескотта Джоуля и российского физика Эмилия Христиановича Ленца. Поскольку ученые работали независимо друг от друга, новый закон назвали двойным именем. <br><br>Применение на практике закона Джоуля-Ленца заключается в том, что тепловым действием электрического тока можно управлять, подбирая проводники с нужным сопротивлением. К примеру, для электрических нагревательных приборов, которые должны выделять максимум тепла, выбирают проводники с высоким сопротивлением. <br><br>Низкое сопротивление, напротив, позволяет проводнику практически не нагреваться при прохождении тока. Поэтому на промышленных предприятиях с усиленными требованиями к пожаробезопасности для прокладки линий электропередач используется медный кабель. Удельное сопротивление меди сечением 1 мм2 равно 0,0175 Ом, в то время как у алюминия оно составляет 0,0271 Ом. Медь практически не нагревается, чем снижает риск возгораний.</p>
@@ -309,6 +315,8 @@
             </li>
             <li>
               <p>{{ myRange }}</p>
+              <p>{{ I }}</p>
+              <p>{{ U }}</p>
             </li>
           </ul>
         </div>
@@ -327,11 +335,28 @@ export default {
       LawsNUMone_display: "none",
       LawsNUMtwo_display: "none",
       LawsNUMthree_display: "none",
-      myRange: ""
+      myRange: "",
+      S: 0.5,
+      p: 0.017,
+      l: 10,
+      E: 12,
+      r: 0.20,
+      R: 0,
+      I: 0,
+      U: 0,
     }
   },
 
   watch: {
+    myRange(new_myRange) {
+      if (new_myRange > -1) {
+        this.R = this.p * this.myRange / this.S;
+        this.I = this.E / (this.r + this.R);
+        this.I = this.I.toFixed(2)
+        this.U = this.I / this.R;
+        this.U = this.U.toFixed(2)
+      }
+    }
   },
   methods: {
     ff() {
@@ -460,6 +485,7 @@ ul li {
 
 .cont_txt {
   height: 230px;
+  width: 795px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -821,6 +847,7 @@ a {
 }
 
 .all_theory_navigation {
+  width: 1020px;
   padding: 65px 0px 200px 0px;
 }
 
@@ -832,7 +859,7 @@ a {
 .slider {
     -webkit-appearance: none;  
     appearance: none;
-    width: 447px;
+    width: 480px;
     height: 6px; 
     outline: none; 
     opacity: 0.7; 
@@ -1321,6 +1348,7 @@ a {
   }
 
   .all_theory_navigation {
+    width: 300px;
     padding: 25px 0px 50px 0px;
   } 
 
