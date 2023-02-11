@@ -1419,7 +1419,7 @@ a {
 .navigation_lab_two {
   padding: 0px 38px 0px 0px;
 }
-@media (min-width: 300px) and (max-width: 420px) {
+@media (min-width: 300px) and (max-width: 399px) {
   * {
     margin: 0px;
     padding: 0px;
@@ -2008,6 +2008,594 @@ a {
   }
 }
 
+@media (min-width: 400px) and (max-width: 425px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .all_padding {
+    padding: 0px 0px 0px 67px;
+  }
+
+  .all_padding_two {
+    padding: 0px 0px 0px 72px;
+  }
+
+  .backround-app-site {
+    background-image: url(static/Backround425px.png);
+    width: 425px;
+    height: 150px;
+  }
+
+  .list_header li {
+    float: left;
+  }
+
+  .header_navigation {
+    padding: 2px 0px 0px 23px;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  .list_header {
+    height: 25px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 20px;
+    padding: 5px 40px 0px 0px;
+  }
+
+  .list li {
+    float: left;
+  }
+
+  .header-txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 7px;
+    color: #FFFFFF;
+    padding: 0px 15px 0px 0px;
+  }
+
+  .header_txt_two {
+    width: 123px;
+    height: 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    padding: 24px 0px 0px 0px;
+  }
+
+  .header-txt-on {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 7px;
+    color: #FFFFFF;
+    padding: 0px 15px 0px 0px;
+  }
+
+  .animation_navigation {
+    padding: 0px 54px 0px 0px;
+  }
+
+  .animation_cube {
+    border-radius: 500px;
+    padding: 0px 0px 0px 0px;
+    width: 100px;
+    height: 100px;
+  }
+
+  /**/
+
+  .cont_txt {
+    width: 210px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #3F49A3;
+    padding: 22px 0px 0px 80px;
+  }
+
+  .student_one_rectangle {
+    width: 90px;
+    height: 178px;
+    background: linear-gradient(21.44deg, #333399 0%, #0D92CB 98.49%);
+    border-radius: 10px;
+  }
+
+  .student_two_rectangle {
+    width: 90px;
+    height: 178px;
+    background: linear-gradient(21.44deg, #E98F0A 0%, #A44153 98.49%);  
+    border-radius: 10px;
+  }
+
+  .student_three_rectangle {
+    width: 90px;
+    height: 178px;
+    background: linear-gradient(21.44deg, #8F00FF 0%, #0500FF 98.49%);
+    border-radius: 10px;
+  }
+
+  .navigation_person_rectangle {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .name_person {
+    width: 79px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 9px 0px 0px 7px;
+  }
+
+  .work_person {
+    width: 81px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 11px 0px 0px 4px;
+  }
+
+  .name_person_three {
+    width: 86px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 9px 0px 0px 1px;
+  }
+
+  .student_img {
+    width: 80px;
+    height: 89px;
+    padding: 19px 0px 0px 10px;
+  }
+
+  .cont_two_txt {
+    width: 46px;
+    height: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #3F49A3;
+    padding: 25px 0px 15px 117px;
+  }
+
+  .laws_rectangle {
+    width: 280px;
+    height: 30px;
+    background: #393939;
+    border-radius: 5px;
+  }
+
+  .laws_list li {
+    float: left;
+  }
+
+  .laws_name_txt {
+    width: 250px;
+    height: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 9px 0px 0px 15px;
+  }
+
+  .arrow_img {
+    width: 12px;
+    height: 9px;
+    padding: 0px 2px 3px 1px;
+  }
+
+  .laws_btn {
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    border-radius: 2px;
+  }
+
+  .navigation_btn_laws {
+    padding: 7px 0px 0px 0px;
+  }
+
+  .navigation_laws_one {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .navigation_laws_two {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .theory_txt {
+    width: 44px;
+    height: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #3F49A3;
+    padding: 25px 0px 15px 117px;
+  }
+
+  .theory_rectangle {
+    background-image: url(static/Rectangle153.png);
+    width: 135px;
+    height: 64px;
+  }
+
+  .theory_rectangle_two {
+    background-image: url(static/Rectangle152.png);
+    width: 135px;
+    height: 64px;
+  }
+
+  .theory_rectangle_three {
+    background-image: url(static/Rectangle151.png);
+    width: 135px;
+    height: 64px;
+  }
+
+  .theory_rectangle_four {
+    background-image: url(static/Rectangle15.png);
+    width: 135px;
+    height: 64px;
+  }
+
+  .navigation_theory {
+    padding: 0px 10px 0px 0px;
+  }
+
+  .navigation_theory_two {
+    height: 85px;
+  }
+
+  .theoty_txt_two {
+    width: 114px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #393939;
+    padding: 0px 0px 0px 21px;
+  }
+
+  .laboratory_rectangle {
+    width: 280px;
+    height: 88px;
+    background: #393939;
+    border-radius: 8px;
+  }
+
+  .laboratory_txt {
+    width: 208px;
+    height: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #3F49A3;
+    padding: 0px 0px 0px 72px;
+  }
+
+  .navigation_laboratory {
+    padding: 25px 0px 0px 0px;
+  }
+
+  .laboratory_name {
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+  }
+
+  .laboratory_target_name {
+    width: 239px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .navigation_all_txt_laboratory_rectangle {
+    padding: 8px 0px 0px 8px;
+  }
+
+  .navigation_rectangle_laboratory {
+    padding: 16px 0px 10px 0px;
+  }
+
+  .footer_rectangle {
+    width: 100%;
+    height: 86px;
+    background: #393939;
+  }
+
+  .navigation_footer {
+    padding: 25px 0px 0px 0px;
+  }
+
+
+  .footer_list li{
+    float: left;
+  }
+
+  .footer_txt {
+    width: 184px;
+    height: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #8C8C8C;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .navigation_github{
+    padding: 0px 0px 0px 76px;
+  }
+
+  .footer_list {
+    padding: 22px 0px 0px 20px;
+  }
+
+  .github {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav_txt_footer {
+    padding: 5px 0px 5px 0px;
+  }
+
+  .laws_txt_vueblock {
+    width: 256px;
+    height: 94px;
+    background: #FFFFFF;
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: #393939;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  .navigation_laws_txt_vueblock {
+    padding: 0px 0px 0px 12px;
+  }
+
+  .lawstxt {
+    width: 216px;
+    height: 57px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #3F49A3;
+    padding: 14px 0px 0px 20px;
+  }
+
+  .lawstxt_two {
+    width: 256px;
+    height: 78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #A33F8D;
+  }
+
+  .new_theory_txt {
+    width: 260px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #393939;
+  }
+
+  .all_theory_txt {
+    width: 290px;
+    padding: 0px 0px 40px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.03em;
+    color: #393939;
+  }
+
+  .all_theory_navigation {
+    width: 300px;
+    padding: 25px 0px 50px 0px;
+  } 
+
+  .all_theory_img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reostat {
+    background-image: url(static/reosatt.png);
+    width: 145px;
+    height: 80px;
+  }
+
+  .polznav {
+    padding: 0px 0px 0px 6px;
+  }
+
+  .end_number_rectangle {
+    width: 131px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 2px solid #3F49A3;
+    border-radius: 9px;
+  }
+
+  .end_number_txt {
+    width: 126px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3F49A3;
+    padding: 8px 0px 0px 6px;
+  }
+
+  .Ucalss {
+    height: 24px;
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .results_navigation {
+    padding: 5px 0px 0px 15px;
+  }
+
+  .range_txt {
+    width: 120px;
+    height: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    padding: 4px 0px 0px 10px;
+  }
+
+  .warring {
+    background-image: url(static/warring_two.png);
+    width: 201px;
+    height: 77px;
+  }
+
+  .lab_list li {
+    float: left;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    border-radius: 12px;
+    width: 10px; 
+    height: 20px; 
+    background: #3F49A3; 
+    cursor: pointer; 
+  }
+
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 132px;
+    height: 8px; 
+    outline: none; 
+    opacity: 1; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+
+  .lab_list {
+    height: 90px;
+  }
+
+  .warring_txt {
+    width: 193px;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    color: #E2574C;
+    padding: 11px 0px 0px 65px;
+  }
+
+  .btn_AllOborud {
+    width: 75px;
+    height: 77px;
+    background: #FFFFFF;
+    border: 2px solid #3F49A3;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #3F49A3;
+  }
+
+  .navigation_lab {
+    padding: 0px 14px 0px 0px;
+  }
+
+  .navigation_lab_two {
+    padding: 0px 14px 0px 0px;
+  }
+}
 
 
 
