@@ -1,5 +1,5 @@
 <template>
-    <v-main>
+    <v-main style="overflow-x: hidden;">
       <v-container style="margin-left: 0px; margin-right: 0px;">
         <Nuxt />
       </v-container>
