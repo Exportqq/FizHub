@@ -103,10 +103,8 @@
                   </li>
                   <li>
                     <div class="navigation_btn_laws">
-                      <button v-if="LawsNUMone_display == 'none'" @click="ff()">
-                        <div class="laws_btn">
-                          <img class="arrow_img" src="aaarrow.png">
-                        </div>
+                      <button class="laws_btn" v-if="LawsNUMone_display == 'none'" @click="ff()">
+                        <img class="arrow_img" src="aaarrow.png">
                       </button>
                       <button v-if="LawsNUMone_display == 'block'" @click="close()">
                         <div style="transform: rotate(180deg) " class="laws_btn">
@@ -134,10 +132,8 @@
                   </li>
                   <li>
                     <div class="navigation_btn_laws">
-                      <button v-if="LawsNUMtwo_display == 'none'" @click="cc()">
-                        <div class="laws_btn">
-                          <img class="arrow_img" src="aaarrow.png">
-                        </div>
+                      <button class="laws_btn" v-if="LawsNUMtwo_display == 'none'" @click="cc()">
+                        <img class="arrow_img" src="aaarrow.png">
                       </button>
                       <button v-if="LawsNUMtwo_display == 'block'" @click="close()">
                         <div style="transform: rotate(180deg) " class="laws_btn">
@@ -164,10 +160,8 @@
                   </li>
                   <li>
                     <div class="navigation_btn_laws">
-                      <button v-if="LawsNUMthree_display == 'none'" @click="dd()">
-                        <div class="laws_btn">
-                          <img class="arrow_img" src="aaarrow.png">
-                        </div>
+                      <button class="laws_btn" v-if="LawsNUMthree_display == 'none'" @click="dd()">
+                        <img class="arrow_img" src="aaarrow.png">
                       </button>
                       <button v-if="LawsNUMthree_display == 'block'" @click="close()">
                         <div style="transform: rotate(180deg) " class="laws_btn">
@@ -1055,7 +1049,7 @@ ul li {
 /**/
 
 .arrow_img {
-  padding: 14px 0px 0px 0px;
+  padding: 14px 0px 5px 0px;
 }
 
 .theory_txt {
@@ -1634,9 +1628,9 @@ a {
   }
 
   .arrow_img {
-    width: 12px;
-    height: 9px;
-    padding: 0px 2px 3px 1px;
+    width: 11px;
+    height: 8px;
+    padding: 0px 0px 2px 0px;
   }
 
   .laws_btn {
@@ -2227,9 +2221,9 @@ a {
   }
 
   .arrow_img {
-    width: 12px;
-    height: 9px;
-    padding: 0px 2px 3px 1px;
+    width: 11px;
+    height: 8px;
+    padding: 0px 0px 2px 0px;
   }
 
   .laws_btn {
@@ -2816,9 +2810,9 @@ a {
   }
 
   .arrow_img {
-    width: 12px;
-    height: 9px;
-    padding: 0px 2px 3px 1px;
+    width: 11px;
+    height: 8px;
+    padding: 0px 0px 2px 0px;
   }
 
   .laws_btn {
@@ -3405,9 +3399,9 @@ a {
   }
 
   .arrow_img {
-    width: 12px;
-    height: 9px;
-    padding: 0px 2px 3px 1px;
+    width: 11px;
+    height: 8px;
+    padding: 0px 0px 2px 0px;
   }
 
   .laws_btn {
@@ -3994,9 +3988,9 @@ a {
   }
 
   .arrow_img {
-    width: 12px;
-    height: 9px;
-    padding: 0px 2px 3px 1px;
+    width: 11px;
+    height: 8px;
+    padding: 0px 0px 2px 0px;
   }
 
   .laws_btn {
@@ -4583,9 +4577,9 @@ a {
   }
 
   .arrow_img {
-    width: 12px;
-    height: 9px;
-    padding: 0px 2px 3px 1px;
+    width: 11px;
+    height: 8px;
+    padding: 0px 0px 2px 0px;
   }
 
   .laws_btn {
