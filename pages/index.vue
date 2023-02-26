@@ -705,7 +705,7 @@
             </div>
           </li>
           <li>
-            <button onclick="window.location.href='backroundfizhub.png'" class="btn_AllOborud">
+            <button onclick="window.location.href='unnamed.jpg'" class="btn_AllOborud">
               Посмотреть всё оборудова-ние
             </button>
           </li>
